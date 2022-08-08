@@ -7,6 +7,7 @@ public class lab {
         int y = sc.nextInt();
         int z = sc.nextInt();
         int num = sc.nextInt();
+
         a = x-num;
         b = y-num;
         c = z-num;
