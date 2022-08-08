@@ -14,11 +14,11 @@ public class lab {
         if(a<0 && b<0 && c<0)
           System.out.println("None");
         else if(a<b && a<c)
-            System.out.println("L3");
+            System.out.println("L1");
         else if(b<a && b<c)
             System.out.println("L2");
         else
-            System.out.println("L1");
+            System.out.println("L3");
 
         }
 
