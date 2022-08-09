@@ -17,6 +17,7 @@ public class Math_Operations {
             else
                 return (double)(a[(n - 1) / 2] + a[n / 2]) / 2.0;
         }
+        public static double findMode(int a[], int n)
 
         public static void main(String args[])
         {
@@ -26,5 +27,6 @@ public class Math_Operations {
             System.out.println("Mean = " + findMean(a, n));
             System.out.println("Median = " + findMedian(a, n));
         }
+
     }
 
